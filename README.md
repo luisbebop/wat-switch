@@ -9,7 +9,7 @@ the libmruby.a to this directory and compile the server.go
 
 ## Usage
 
-Just open a telnet connection to the port 31415 and send the name of a mruby script inside the executing
+Just open a telnet connection to the port `31415` and send the name of a mruby script inside the executing
 directory without `.rb`, a space, and the input buffer who will passed to the mruby script as a global
 varible named `$INPUT`
 
