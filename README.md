@@ -15,6 +15,6 @@ varible named `$INPUT`
 
 ## Warning
 
-This is REALLY REALLY REALLY INSECURE. Any atacker could input malicious mruby scripts to take over the
+This is REALLY REALLY REALLY INSECURE!. Any atacker could input malicious mruby scripts to take over the
 control of the server.go runtime. Use at your own risk. To avoid that you should control system calls
 inside the mruby runtime through a pre processing of the script or sandboxed mruby runtime.
